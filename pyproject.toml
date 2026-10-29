@@ -1,0 +1,17 @@
+[project]
+name = "insurellm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abhishek-tiwari-nitrr", email = "abhishek.tiwari.nitrr@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+16-insurellm = "16_insurellm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
